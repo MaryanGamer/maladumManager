@@ -1,0 +1,532 @@
+[
+   {
+        "Nom": "Artain",
+        "Cost": 61,
+        "Life": "1/2/3/5",
+        "Talent": "2/4",
+        "Magie": "2/5",
+        "Action": "2/2",
+        "XPs": "1/4/4/3/3/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Artiste",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "2"
+            }
+        ]
+    },
+    {
+        "Nom": "Ariah",
+        "Cost": 73,
+        "Life": "1/2/3/6",
+        "Talent": "1/5",
+        "Magie": "2/4",
+        "Action": "2/2",
+        "XPs": "2/6/4/5/3/3",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Don tactique",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur d'élite",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+ 
+    {
+        "Nom": "Beren",
+        "Cost": 71,
+        "Life": "1/2/3/5",
+        "Talent": "1/3",
+        "Magie": "3/7",
+        "Action": "2/2",
+        "XPs": "4/6/5/3/3/3",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Remède Naturel",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",                "cursusInitialLevel": "1","cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Prêt à tout",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",         "cursusInitialLevel": "1","cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Brahm",
+        "Cost": 90,
+        "Life": "1/2/4/6",
+        "Talent": "2/5",
+        "Magie": "2/4",
+        "Action": "2/3",
+        "XPs": "4/6/5/5/4/3",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Insensible à la Terreur",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitrise des Armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur Expert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Callan",
+        "Cost": 54,
+        "Life": "1/2/4/5",
+        "Talent": "1/4",
+        "Magie": "1/3",
+        "Action": "2/2",
+        "XPs": "1/4/3/4/2/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Frénésie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",          "cursusInitialLevel": "1", "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Chiau",
+        "Cost": 71,
+        "Life": "1/2/3/4",
+        "Talent": "2/5",
+        "Magie": "3/7",
+        "Action": "2/2",
+        "XPs": "4/6/3/4/5/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Amélioration de Malacyte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1"
+            }
+        ]
+    },
+    {
+        "Nom": "Emmerik",
+        "Cost": "67",
+        "Life": "1/2/3/5",
+        "Talent": "1/3",
+        "Magie": "3/6",
+        "Action": "2/?",
+        "XPs": "1/6/5/3/3/0",
+        "aptitudes": []
+    },
+    {
+        "Nom": "Galen",
+        "Cost": "68",
+        "Life": "1/2/3/5",
+        "Talent": "2/5",
+        "Magie": "2/4",
+        "Action": "2/3",
+        "XPs": "1/5/4/3/4/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Initiative",
+                    "type": "Pouvoir"
+                },
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Greet",
+        "Cost": "",
+        "Life": "1/2/3/4",
+        "Talent": "2/5",
+        "Magie": "1/4",
+        "Action": "2/3",
+        "XPs": "2/5/5/4/3/2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Troc",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Ficelles du métier",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            }
+        ]
+    },
+    {
+        "Nom": "Gromgar",
+        "Cost": 73,
+        "Life": "1/2/5/7",
+        "Talent": "1/3",
+        "Magie": "1/3",
+        "Action": "2/2",
+        "XPs": "2/4/4/4/3/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Attaque mains nues",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            },
+            {
+                "abilityKey": {
+                    "nom": "Taille",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2"
+            }
+        ]
+    },
+    {
+        "Nom": "Hendley",
+        "Cost": "",
+        "Life": "1/2/4/7",
+        "Talent": "3/6",
+        "Magie": "1/3",
+        "Action": "2/?",
+        "XPs": "3/4/4/3/4/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Vision nocturne",
+                    "type": "Pouvoir"
+                }
+            },
+            {
+                "abilityKey": {
+                    "nom": "forge",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1"
+            }
+        ]
+    },
+    {
+        "Nom": "Kaan",
+        "Cost": 79,
+        "Life": "1/2/5/6",
+        "Talent": "1/3",
+        "Magie": "2/6",
+        "Action": "2/2",
+        "XPs": "1/5/4/4/5/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Attaque mains nues",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Taille",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Assaut brutal",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Kriga",
+        "Cost": 73,
+        "Life": "1/2/4/6",
+        "Talent": "2/6",
+        "Magie": "1/3",
+        "Action": "2/2",
+        "XPs": "3/5/4/4/3/2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Implacable",
+                    "type": "Pouvoir"
+                }
+            }
+        ]
+    },
+    {
+        "Nom": "Merinda",
+        "Cost": 80,
+        "Life": "1/2/4/6",
+        "Talent": "2/6",
+        "Magie": "1/3",
+        "Action": "2/3",
+        "XPs": "3/5/4/3/3/2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Attaque mains nues",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Pieds agiles",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Moranna",
+        "Cost": 80,
+        "Life": "1/2/3/4",
+        "Talent": "2/4",
+        "Magie": "2/7",
+        "Action": "2/3",
+        "XPs": "5/6/5/4/3/3",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Acrobatie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitrise de la Malacyte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Indomptable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            }
+        ]
+    },
+    {
+        "Nom": "Numinor",
+        "Cost": "79",
+        "Life": "1/2/4/7",
+        "Talent": "2/4",
+        "Magie": "2/5",
+        "Action": "2/2",
+        "XPs": "3/5/5/4/4/3",
+        "aptitudes": [
+			{"abilityKey": {
+                    "nom": "Bouclier de Malacyte",
+                    "type": "Sort"
+                },
+				"cursusSlotArmor": false
+			},
+            {"abilityKey": {
+                    "nom": "Eloquence",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Prêt à tout",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            }
+		]
+    },
+    {
+        "Nom": "Phedra",
+        "Cost": "",
+        "Life": "1/2/?/?",
+        "Talent": "?/?",
+        "Magie": "?/?",
+        "Action": "?/?",
+        "XPs": "1/2/5/5/5/5",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Arts Interdits",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Syrio",
+        "Cost": 64,
+        "Life": "1/2/4/6",
+        "Talent": "1/4",
+        "Magie": "1/4",
+        "Action": "2/2",
+        "XPs": "3/5/4/4/3/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Rapide",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1",
+                "cursusSlotArmor": true
+            }
+        ]
+    },
+    {
+        "Nom": "Unger",
+        "Cost": "",
+        "Life": "1/2/3/5",
+        "Talent": "2/5",
+        "Magie": "2/4",
+        "Action": "2/3",
+        "XPs": "2/6/5/4/4/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Détection",
+                    "type": "Sort"
+                }
+            },
+            {
+                "abilityKey": {
+                    "nom": "Entourloupe",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "1"
+            }
+        ]
+    },
+    {
+        "Nom": "Corazon",
+        "Cost": 83,
+        "Life": "1/2/3/3",
+        "Talent": "2/6",
+        "Magie": "3/7",
+        "Action": "2/2",
+        "XPs": "4/6/6/3/4/4",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Persuasion",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2",
+                "cursusInitialLevel": "2",
+                "cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Camouflage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1",
+                "cursusInitialLevel": "0",
+                "cursusSlotArmor": true
+            },
+            {
+                "abilityKey": {
+                    "nom": "Malédiction",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "1"
+            }
+        ]
+    }
+]

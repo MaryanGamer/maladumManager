@@ -1,0 +1,1400 @@
+[
+    {
+        "nom": "Aspirant",
+        "classe EN": "Contender",
+        "origin": "",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "ajout de des rouge",
+                    "type": ""
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Hyper conscience",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "-"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Adversaire digne de ce nom",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "-"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Acrobatie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Eloquence",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Constant",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Don tactique",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intimidation",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Carnage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Assassin",
+        "classe EN": "",
+        "origin": "Base game",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Arts martiaux",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Acrobatie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intouchable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Désarmement",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir Vicieux",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération Rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Barbare",
+        "classe EN": "",
+        "origin": "Base game",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Attaque mains nues",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Force",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "-"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Frénésie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Assaut Brutal",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Carnage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Indomptable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Arts martiaux",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intimidation",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Charlatan",
+        "classe EN": "Deceiver",
+        "origin": "",
+        "cost": "7",
+        "aptitudes": []
+    },
+    {
+        "nom": "Conservateur",
+        "classe EN": "Curator",
+        "origin": "",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Moins de PV",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Plus de Talent",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Connaissance",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Herboristerie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Héros malgré lui",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Forge",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Plonger à couvert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Don tactique",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Troc",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            }
+        ]
+    },
+    {
+        "nom": "Druide",
+        "classe EN": "",
+        "origin": "",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Magie",
+                    "type": "Magie"
+                },
+                "cursusMaxLevel": "8"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Pistage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Distraction",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Uni avec la nature",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Esprit renforcé",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Remède Naturel",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Embuscade",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Ermitte",
+        "classe EN": "Eremite",
+        "origin": "",
+        "cost": "7",
+        "aptitudes": []
+    },
+    {
+        "nom": "Escroc",
+        "classe EN": "Swindler",
+        "origin": "",
+        "cost": "11",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Illusion",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "je sais pas",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "-"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Eloquence",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Désarmement",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Doigts agiles",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Distraction",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur d'élite",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir Vicieux",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Artiste",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1"
+            }
+        ]
+    },
+    {
+        "nom": "Eudaemon",
+        "classe EN": "",
+        "origin": "",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Magie",
+                    "type": "Magie"
+                },
+                "cursusMaxLevel": "10"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitrise de la Malacyte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Indomptable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Inspirant",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Esprit renforcé",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Carnage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            }
+        ]
+    },
+    {
+        "nom": "Forgeron",
+        "classe EN": "",
+        "origin": "",
+        "cost": "9",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Affaiblissement d'armure",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "-"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Forge",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Constant",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Indomptable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur Expert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Troc",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Ficelles du métier",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            }
+        ]
+    },
+    {
+        "nom": "Maestro",
+        "classe EN": "Maestro",
+        "origin": "",
+        "cost": "54",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Relancer",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "-"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Artiste",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Héros malgré lui",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Inspirant",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Troc",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intouchable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Persuasion",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération Rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Magus",
+        "classe EN": "",
+        "origin": "",
+        "cost": "21",
+        "aptitudes": []
+    },
+    {
+        "nom": "Mentor",
+        "classe EN": "",
+        "origin": "",
+        "cost": "5",
+        "aptitudes": []
+    },
+    {
+        "nom": "Mercenaire",
+        "classe EN": "Sellsword",
+        "origin": "Base game",
+        "cost": "2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Pt Action supplémentaire",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Frénésie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir de Riposte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur d'élite",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Entrainement",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Paladin",
+        "classe EN": "",
+        "origin": "",
+        "cost": "2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Magie",
+                    "type": "Magie"
+                },
+                "cursusMaxLevel": "8"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Soin",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Focalisation",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Force",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Endurcissement",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Calme",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Bénédiction",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Force d'âme",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Empathie",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Renforcement",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Epuisement",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Réveil",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Resistance partagée",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Inspiration",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Marchandage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Insensible",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Inamovible",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Désarmement",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Entourloupe",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            }
+        ]
+    },
+    {
+        "nom": "Pillard",
+        "classe EN": "Scavenger",
+        "origin": "",
+        "cost": "2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Rapide",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Acrobatie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Pied agile",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Arts martiaux",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Ficelles du métier",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Doigts agiles",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intouchable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Troc",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Prymorist",
+        "classe EN": "",
+        "origin": "",
+        "cost": "2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Magie",
+                    "type": "Magie"
+                },
+                "cursusMaxLevel": "12"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Manipulation Pouvoir",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitrise de la Malacyte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intouchable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Esprit renforcé",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Remède Naturel",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir de Riposte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Ranger",
+        "classe EN": "",
+        "origin": "Base game",
+        "cost": "0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Embuscade",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Camouflage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Pistage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur Expert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Uni avec la nature",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Roublard",
+        "classe EN": "Rogue",
+        "origin": "Base game",
+        "cost": "54",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Ouverture",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Doigts agiles",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Ficelles du métier",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Distraction",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Entourloupe",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Camouflage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Plonger à couvert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Sorcier",
+        "classe EN": "Warlock",
+        "origin": "",
+        "cost": "21",
+        "aptitudes": []
+    },
+    {
+        "nom": "Stratège",
+        "classe EN": "Strategist",
+        "origin": "",
+        "cost": "5",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Préscience",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Résistance partagée",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "4"
+            },
+            {
+                "abilityKey": {
+                    "nom": "XP gratuits",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Vantardise",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir de Riposte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Diversion",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur Expert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Prêt à tout",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Don tactique",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Formation",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Vagabond",
+        "classe EN": "Rambler",
+        "origin": "extension",
+        "cost": "2",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Detect",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Recovery",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Immunité (Handicap)",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Uni avec la nature",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Intouchable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Herboristerie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Promptitude",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Pistage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération Rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Ficelles du métier",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Tireur d'élite",
+        "classe EN": "",
+        "origin": "KS",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "cible",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": ""
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir Vicieux",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur d'élite",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tireur Expert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Tir de Riposte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Embuscade",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Plonger à couvert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Pied agile",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Reflexes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
+        "nom": "Gardien",
+        "classe EN": "Guardian",
+        "origin": "KS",
+        "cost": "7",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "PV Sup",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Carnage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Constant",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Indomptable",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Récupération rapide",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Frénésie",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Assaut Brutal",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Prêt à tout",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "2"
+            }
+        ]
+    }
+]

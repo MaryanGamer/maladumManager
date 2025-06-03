@@ -1,11 +1,35 @@
-# maladumManager
-simple web interface to manage a maladum game
+# vue-project
 
-application is in french. 
-application built with vue js.
-Installation with npm vue CLI (https://cli.vuejs.org/guide/installation.html)
-in the directory, you can find initial directory and production version, you can directly deploy.
+This template should help get you started developing with Vue 3 in Vite.
 
-directory data host several json files managed a referential. they still need to be enruiched.
+## Recommended IDE Setup
 
-Deployed here : https://desoutter.ovh/maladum
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
