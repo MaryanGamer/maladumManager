@@ -8,24 +8,39 @@
             "category": "Distance",
             "seuil": "3",
             "descriptionNiveaux": [
-                "Vous pouvez effectuer une atytaque de mélée avec une arme à distance. Utilisez la capacité d'attaque à Portée courte. +1 dé. Passif : Résolvez le symbole de préparation en action rapide.",
-                "Lancez une arme de mélée avec +2 dés, ou lancez un objet comme si c'était une arme à 2 dés.Passif : Les tirs sont des actions rapides.",
-                "Effectuer un tir avec une arme à Balles. L'attaque ignore les doigts croisés, et bénéficie des symboles marteau, tranchant et pas de bouclier. Passif : Sur les tirs et les lancers d'objet offensifs, la touche sur dé bleu est un critique."
+                "Vous pouvez effectuer une attaque de mélée avec une arme à distance. Utilisez la capacité d'attaque à Portée courte. +1 dé    Passif : Résolvez le symbole de préparation en action rapide. ",
+                "Lancez une arme de mélée avec +2 dés, ou lancez un objet comme si c'était une arme à 2 dés.     Passif : Les tirs sont des actions rapides.",
+                "Effectuer un tir avec une arme à Balles. L'attaque ignore les doigts croisés, et bénéficie des symboles marteau, tranchant et pas de bouclier.     Passif : Sur les tirs et les lancers d'objet offensifs, la touche sur dé bleu est un critique. "
             ]
         }
     },
     {
         "abilityKey": {
-            "nom": "Frénésie",
+            "nom": "Tireur d'Elite",
             "type": "Compétence"
         },
         "abilityDetail": {
-            "category": "Combat",
+            "category": "Distance",
             "seuil": "3",
             "descriptionNiveaux": [
-                "Vous pouvez effectuer une atytaque de mélée avec une arme à distance. Utilisez la capacité d'attaque à Portée courte. +1 dé. Passif : Résolvez le symbole de préparation en action rapide.",
-                "Lancez une arme de mélée avec +2 dés, ou lancez un objet comme si c'était une arme à 2 dés.Passif : Les tirs sont des actions rapides.",
-                "Effectuer un tir avec une arme à Balles. L'attaque ignore les doigts croisés, et bénéficie des symboles marteau, tranchant et pas de bouclier. Passif : Sur les tirs et les lancers d'objet offensifs, la touche sur dé bleu est un critique."
+                "Effectuer un tir à portée courte, sans lancer les dés. vous avez une touche automatique, en ignorant les couverts",
+                "Faites un tir à portée moyenne, sans lancer de dés. Vous avez une touche automatique, ignorant le couvert et l'armure physique. Passif : Vos tirs à portée courte ignorent le couvert ",
+                "Faites un tir à portée moyenne. Sans lancer de dés. Vous avez automatiquement 2 touches, en ignrant couvert et armure physique. Passif : vos tirs à portée moyenne ignorent le couvert."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Tireur de riposte",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Distance",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Réation : à utiliser lorsque vous avez été la cible d'un tir ou d'un sort. avant de lancer les dés; effectuez un tor ou un sort contre l'attaquant.",
+                "Réaction : A utiliser lorsqu'un ennemi a effectué sa première action dans le round en cours. Ciblez cet ennemi; avec un tir ou un sort.",
+                "Réaction : A utiliser n'importe quand. Executez un tir ou incantez un sort contre iun ennemi., avec +1 dé; puis effectuez un déplacement."
             ]
         }
     },
@@ -40,7 +55,7 @@
             "descriptionNiveaux": [
                 "Reaction; quand un ennemi engage le personnage, celui ci se déplace sans AdO. Passif, Ignorez une touche sur les AdO.",
                 "2:reaction; quand un ennemi engage le personnage, Dans l'ordre de votre choix, celui ci se déplace sans AdO et attaque. Passif, le personnage peut utiliser Parade contre les tirs.",
-                "3:reaction; quand un ennemi engage le personnage, l'attaquant est étourdi et le personnage effectue 2 déplacement, sans AdO, et 1 attaque (ordre à votre choix). Passif, pour un action rapide, vous pouvez ignorer une AdO.",
+                "3:reaction; quand un ennemi engage le personnage, l'attaquant est étourdi et le personnage effectue 2 déplacement, sans AdO, et 1 attaque (ordre à votre choix).     Passif, pour un action rapide, vous pouvez ignorer une AdO.",
                 "Réaction : A utiliser quand un ennemi vous attaque. dans l'ordre de votre choix, effectuez un déplacement sans AdO, et effectuez une attaque",
                 "A utiliser quand un ennemi vous attaque. Il est étourdi; Dans l'ordre de votre choix, effectuez 2 déplacements sans AdO, et effectuez une attaque"
             ]
@@ -107,6 +122,21 @@
             ]
         }
     },
+	{
+        "abilityKey": {
+            "nom": "Ficelles du métier",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Ruse",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Dévérouiller/vérouiller une porte ou ignorer les jetons pièges lors d'une fouille",
+                "Réaction : quand un allié en portée courte et el LdV est ciblé par une carte ou un jeton piège, annuler l'effet. Passif : la fouille globale est une action rapide",
+                "Lors d'une fouille, piocjher un pobjet supplémentaire, plus un objet onhabituel. Ignorez les pièges lors de cette fouille. Passif : Vos attaques gagnent 'Toxique'"
+            ]
+        }
+    },
     {
         "abilityKey": {
             "nom": "Doigts Agiles",
@@ -134,6 +164,20 @@
                 "1:Gagnez 2 touchez sur un test de persuasion",
                 "2:Persuasion sur un aventurier. si réussite, l'aventurier a un marqueur fatigue par tcouhe. Passif : +1 aux tests de persuasion.",
                 "3:Persuasion sur un aventurier avec +3 touches. toute sles options sont disponibles."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Embuscade",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Ruse",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "1:Reaction : Quand un ennemi termine son mouvement à 4 cases o moi ns de vous, et que vous êtes à couvert, vous effectuez un tir contre l'ennemi. Vous pouvez faire un rush, avant ou après le tir.",
+                "2:Réaction : A utiliser lorsqu'un ennemi termine son mouvement à 4 cases ou moins de vous, et vous êtes à couvert. Vous pouvez effectuer un mouvement ouis . Vous pouvez faire un Rush avant ou après une de ces 2 actions."
             ]
         }
     },
@@ -224,7 +268,7 @@
             "description": "voir detail par niveau",
             "seuil": "2",
             "descriptionNiveaux": [
-                "Phase de repos : Après n'importe quelle résultat 'Nuit Bruyante', vous gagnez X renommées supplémentaires. Passif : Chaque fois que de la renommée doit être dépensée, ce personnage peut dépenser des talents à la place. en suivant les restrictions habituelles.",
+                "Phase de repos : Après n'importe quelle résultat 'Nuit Bruyante', vous gagnez X renommées supplémentaires.     Passif : Chaque fois que de la renommée doit être dépensée, ce personnage peut dépenser des talents à la place. en suivant les restrictions habituelles.",
                 "Réaction : Lorsque le groupe gagne de la renommée, il en gagne un supplémentaire"
             ]
         }
@@ -263,6 +307,22 @@
     },
     {
         "abilityKey": {
+            "nom": "Inamovible",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Endurance",
+            "description": "à fournir",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Vous ne pouvez pas être étourdi, poussé, ou mis au sol, jusque la fin du round.",
+                "Vous ne pouvez pas vous déplacer ce tour. gagnez +1 d& sur vos attaques et poussées. Passif : Ignoer l'encombrant' lorsque vous ne vous déplacez pas.",
+                "jusque la fin du round, Vous ne pouvez pas être étourdi, poussé, ou mis au sol ET après une attaque de mélée contre vous, effectuer une poussée gratuite contre l'attaquant ET Si un ennemi se déplace à 2 cases de vous, vous puvez immédiatement faire un Rush pour l'engager et devenir sa cible."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Promptitude",
             "type": "Compétence"
         },
@@ -295,6 +355,23 @@
     },
     {
         "abilityKey": {
+            "nom": "Marchandage",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Soutien",
+            "description": "à fournir",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "En phase de commerce, vous avez le choix entre 3 actions : acheter un objet de n'importe quelle valeur OU piocher un objet rare additionnel pour la mise en vente OU vandre un objet pour sa valeur d'achat (max 10 x rang)",
+                "En phase de commerce, déduisez 2G de 3 objets achetés, ou ajouter 2G à 3 objets vendu. Les combinaisons sont possible. passif : déduisez 2G du prix d'achat d'un object ou de l'entretien d'un aventurier",
+                "phase de commerce : augmenter de 50% les gains de G gagnés via les objectifs de quête."
+            ]
+
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Assaut Brutal",
             "type": "Compétence"
         },
@@ -304,7 +381,7 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "Effectuez une attaque de mélée avec un dé supplémentaire. Si la cible survit, elle tombe à terre.",
-                "Choisissez un personnage en contact avec vous, de taille égale ou ionférieure.Vou sle lancezDéplacez le à portée courte et en LdV. Il ne subit pas d'attaque d'opportunité.Il subit une attaque de valeur égale à votre combat à mains nues +1, +1 encore si il est projeté sur un mur ou un obstacle. si l'obstacle est un personnage, celui ci subit une attaque de votre combat à mains nues +1. Passif : vous pouvez ignorer l'a propriété Encombrant sur les armes de mélée. ",
+                "Choisissez un personnage en contact avec vous, de taille égale ou inférieure.Vous le lancez Déplacez le à portée courte et en LdV. Il ne subit pas d'attaque d'opportunité. Il subit une attaque de valeur égale à votre combat à mains nues +1, +1 encore si il est projeté sur un mur ou un obstacle. si l'obstacle est un personnage, celui ci subit une attaque de votre combat à mains nues +1. Passif : vous pouvez ignorer l'a propriété Encombrant sur les armes de mélée. ",
                 "Effectuez jusque 3 attaque à mains nues sur une même cible. Si elle survit, mettez là au sol. Vous pouvez ensuite effectuer un déplacement."
             ]
         }
@@ -320,8 +397,40 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "Effectuez une attaque de mélée avec une arme, vous pouvez relancer un dé. Passif : Vous pouvez utiliser la capacité blocage par bouclier en action rapide. Vous devenez toujours fatigué si vous l'utilisez en dehors de votre tour.",
-                "A utiliser après une attaque de corps à corps. La cible est blessée et étourdie. Passif : Vous pouvez effectuer une attaque de mélée en action rapide",
+                "A utiliser après une attaque de corps à corps. La cible est blessée et étourdie.  Passif : Vous pouvez effectuer une attaque de mélée en action rapide",
                 "A utiliser après une attaque de corps à corps avec une arme. Vous pouvez effectue rune autre attaque avec une autre arme de votre inventaire, en combinant les coups et les effets. Les résultats s'appliquent séparemment. ensuite, faites une action de recul avecd +1 dé. ou un déplacement sans AdO. Passif : les touches sur le dés bleux, en attaque, sont des critiques."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Frénésie",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Mélée",
+            "description": "description par niveau",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "A utiliser avant une attaque de mélée : lancez +2 dés",
+                "A utiliser avant une attaque de mélée : lancez +3 dés",
+                "A utiliser avant une attaque de mélée : lancez +4 dés; Les touches peuvent êtres réparties entre tout es les cible à portée de l'arme; Les effets additionneols de l'attaque sont appliqués à tous les ennemis. Passif : le personnage gagne Initiative (attaque en fin de mouvement)"
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Manipulation de Pouvoir",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Magie",
+            "description": "description par niveau",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Réaction : N'importe quand, lancez un sort que vous connaissez (action normal ou action rapide)",
+                "Passif : Dépenser n'importe quel nombre d'épingles de Talent pour augmenter d'autant la puissance du sort",
+                "Choisissez une arme à Canalisation, dépensez des épingles de Magie (1 mini). Le personnage effectuer un tir à portée courte avec autant de dés que d'épingles +3. Tous les effets de l'arme s'appliquent. Ignorez la surcharge Mentale. Passif : Résolvez les effets des Objets canalisation comme si +1 épingle avait été utilisée."
             ]
         }
     },
@@ -332,6 +441,15 @@
         },
         "abilityDetail": {
             "description": "Je pense que le nom du pouvoir est suffisemment éloquent"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Vif",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Le bénéficciaire de ce pouvoir peut se déplacer de X cases supplémentaires lors d'une actio de mouvement."
         }
     },
     {
@@ -391,6 +509,83 @@
             "category": "Proximité",
             "description": "Action rapide : Retirer un jeton de fatigue; Action : Retirer un jeton empoisonné.",
             "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Focalisation",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action rapide : Gagner X marqueurs Bénédiction.",
+            "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Force",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action rapide : Gagner X  attaque à Mans  nues jusque la fin du tour.",
+            "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Armure affaiblie",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Focalidation",
+            "description": "Action : réduisez l'armure de la cible d'une valeur de X, jusque la fin du round.",
+            "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Endurcissement",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action : Gagner X boucliers jusque la fin du round.",
+            "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Vitesse",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "A utiliser durant un déplacement : Gagner x+1 cases de déplacement.",
+            "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Grande Conscience",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action : Prenez un marqueur Rappel et gagnez Béni.A tout moment, défaussez le marqueur pour effectuer une action. Sinon, retirez le marqueur durant la phase d'évaluation.",
+            "seuil": "2"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Saut",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action Rapide : Déplacez vous de X+1 cases horizontalement ou verticalement.",
+            "seuil": "2"
         }
     },
     {
@@ -460,6 +655,15 @@
     },
     {
         "abilityKey": {
+            "nom": "Frénésie",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Combat"
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Imperméable",
             "type": "Compétence"
         },
@@ -474,33 +678,6 @@
         },
         "abilityDetail": {
             "description": "à fournir"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Manipulation de Pouvoir",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Magie"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Manipulation de Pouvoir",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Magie"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Manipulation de Pouvoir",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Magie"
         }
     },
     {
@@ -559,15 +736,6 @@
     },
     {
         "abilityKey": {
-            "nom": "Troc",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Soutien"
-        }
-    },
-    {
-        "abilityKey": {
             "nom": "Uni avec la nature",
             "type": "Compétence"
         },
@@ -582,6 +750,24 @@
         },
         "abilityDetail": {
             "description": "à fournir"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Talent supplémentaire",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Vous avez X points de talents supplémentaire"
+        }
+    },
+	{
+        "abilityKey": {
+            "nom": "Dissident",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Ce Maladaar suit les règles de Maladaar dissident."
         }
     },
     {

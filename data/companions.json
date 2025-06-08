@@ -1,4 +1,127 @@
 [
+    {
+        "Nom": "Mirt",
+        "Cost": 31,
+        "Life": "1/1/1/1",
+        "Talent": "0/0",
+        "Magie": "0/0",
+        "Action": "2/2",
+        "XPs": "0/5/0/0/0/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Taille",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "0.5"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Règle speciale",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "0"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Attaque à mains nues",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Attaque à distance",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Persuadable",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Lumière",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "2",
+				"cursusSlotArmor": true
+            },
+            {
+                "abilityKey": {
+                    "nom": "Créature extra Terrestre",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "0"
+            }
+        ]
+    },
+	{
+        "Nom": "Astet",
+        "Cost": 37,
+        "Life": "1/1/1/1",
+        "Talent": "0/0",
+        "Magie": "0/0",
+        "Action": "2/2",
+        "XPs": "0/5/0/0/0/0",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Taille",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "0.5"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Règle speciale",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "0"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Attaque à mains nues",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Attaque à distance",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Persuadable",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "3"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Déplacement supplémentaire",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "1",
+				"cursusSlotArmor": false
+            },
+            {
+                "abilityKey": {
+                    "nom": "Créature extra Terrestre",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "0"
+            }
+        ]
+    },
+
    {
         "Nom": "Artain",
         "Cost": 61,
