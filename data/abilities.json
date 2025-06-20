@@ -61,6 +61,51 @@
     },
     {
         "abilityKey": {
+            "nom": "Arts Martiaux",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Agilité",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Vous balayez les pieds d'uin ennemi. Il tombe au sol. Passif : Les attaques de ce personnage gagnent Frappe rapide. Si vous utilisez une arme ayant cette même propriété, vous pouvez Dash ET attaquer.",
+                "Reaction : avant qu'un ennemi vous attaque, utilisez cette compétence. L'attaque n'a aucun effet. 2chnagez vos é positions. Effectuez un déplacement sans attaque d'AdO, ou une action Repousser à 1D.",
+                "Sautez d'un niveau supérieur, avec une distance de sécurité de 3. Tous les personnages de même taille ou plus petits, sur votre case d'attérissage, sont prohjetés à terre. Effectuez ensuite une attaque avec autant de D supplémentaires que la hauteur du saut."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Acrobaties",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Agilité",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Effectuer un déplacement avec 2/3.",
+                "Reaction : Quand vous êtes attaqué, lancez 3 dés de combat. Chaque coup réussi retire un succès de l'attaque. Passif : vous pouvez traiter les valeur de terrain difficile avec une valeur de & de moins.",
+                "Vous vous désengagez. tous les ennemis en contact peuvent être repoussés jusqu'à 2 cases. s'arrêtant si ils heurtent un mur. aaucune attaque d'opportunité n'est effectuée, mais chaque ennemi repoussé subit une attaque à 2 dés. Vous pouvez faire, ensuite un déplacement."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Pieds agiles",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Agilité",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Action : effectuez un mouvement.",
+                "Passif : Gagnez Rapide 1.",
+                "Effectuez un déplacement. Ce déplacement et tout autre déplacement ce tour ignore les AdO. Effectuez une attaque à 1 D contre chaque ennemi contacté durant vos déplacements. Tous les coups mettront vos cibles à terre, même si aucun dégât n'est infligé."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Intouchable",
             "type": "Compétence"
         },
@@ -114,9 +159,9 @@
             "category": "Ruse",
             "seuil": "3",
             "descriptionNiveaux": [
-                "1:un personnage en LdV et portée moyenne est fatigué",
-                "2:effectuer un tior  ou lancez un objet. la cible ou un autre ennemi à portée courte de la cible gagne 2 marqueurs fatigue. Puis déplacez vous.",
-                "3:Déplacez un personnage à portée moyenne en LdV; ce déplacement ne peut pas le forcer à se causer du tord, ni engager un ennemi.Il gagne 2 marqueurs fatigue. Avant ou après avoir provoqué cet effet, vous pouvez vous déplacer ou attaquer, dans ;'ordre de votre choix."
+                "Un personnage en LdV et portée moyenne est fatigué",
+                "Effectuer un tior  ou lancez un objet. la cible ou un autre ennemi à portée courte de la cible gagne 2 marqueurs fatigue. Puis déplacez vous.",
+                "Déplacez un personnage à portée moyenne en LdV; ce déplacement ne peut pas le forcer à se causer du tord, ni engager un ennemi.Il gagne 2 marqueurs fatigue. Avant ou après avoir provoqué cet effet, vous pouvez vous déplacer ou attaquer, dans ;'ordre de votre choix."
             ]
         }
     },
@@ -215,7 +260,13 @@
             "type": "Compétence"
         },
         "abilityDetail": {
-            "category": "Survie"
+            "category": "Survie",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Fouille : en plus des objets trouvés, lancer un dé magique : #1 : rien de plus. #2-3 : Prenez un jeton morceau ou Herbe supplémentaire. #4-5 : Prenez un jetopn Herbe ou champignon. #6 : Prenez un jeton Remède ou Minéral. Passif : En repos dans la nature, vous pouvez lancer un dé comme cidesssu, pour chaque personnage ayant la compétence.",
+                "En début de tour, choisissez une bête errante non surnaturelle; chacune de vos action peut être utilisée pour contrôler cette bête à la place.",
+                "Sélectionner une bête errante aléatoire, de rang 1 à 3. Elle entre en jeu sur un point d'entrée de votre choix. et sera contrôléelors de la phase aventurier jusque la fin de la partie. Elle s'active dès ce tour. Passif : les bêtes errantes non surnaturelles ne peuvent pas vous cibler."
+            ]
         }
     },
     {
@@ -539,6 +590,15 @@
     },
     {
         "abilityKey": {
+            "nom": "Rapide",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Vous gagnez X cases de déplacement à chaque tour."
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Dissident",
             "type": "Pouvoir"
         },
@@ -807,15 +867,6 @@
         },
         "abilityDetail": {
             "category": "citoyen"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Pistage",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Survie"
         }
     },
     {
