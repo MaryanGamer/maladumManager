@@ -217,64 +217,7 @@
         "classe EN": "Deceiver",
         "origin": "",
         "cost": "7",
-        "aptitudes": [
-		    {
-                "abilityKey": {
-                    "nom": "Talent supplémentaire",
-                    "type": "Pouvoir"
-                },
-                "cursusMaxLevel": "1"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Dissident",
-                    "type": "Pouvoir"
-                },
-                "cursusMaxLevel": "1"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Vantardise",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "2"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Art interdit",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Insensible",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Erudit",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Maitrise des Malacytes",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "2"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Entourloupe",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            }
-		]
+        "aptitudes": []
     },
     {
         "nom": "Conservateur",
@@ -291,7 +234,7 @@
             },
             {
                 "abilityKey": {
-                    "nom": "Talent supplémentaire",
+                    "nom": "Plus de Talent",
                     "type": "Pouvoir"
                 },
                 "cursusMaxLevel": "2"
@@ -412,110 +355,11 @@
         ]
     },
     {
-        "nom": "Ermite",
+        "nom": "Ermitte",
         "classe EN": "Eremite",
         "origin": "",
         "cost": "7",
-        "aptitudes": [
-            {
-                "abilityKey": {
-                    "nom": "Magie",
-                    "type": "Magie"
-                },
-                "cursusMaxLevel": "8"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Esprit Confus",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Récupération",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Intuition Sanguine",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Affinité avec l'extérieur",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Poussée",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Barricade",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Imposition des mains",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Portail Infernal",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Linceul Sprectral",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Linceul Spectral",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Relever les Morts",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Préscience",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Corruption",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            }
-        ]
+        "aptitudes": []
     },
     {
         "nom": "Escroc",
@@ -660,28 +504,35 @@
         "aptitudes": [
             {
                 "abilityKey": {
-                    "nom": "Armure affaiblie",
+                    "nom": "Affaiblissement d'armure",
                     "type": "Sort"
                 },
                 "cursusMaxLevel": "-"
             },
             {
                 "abilityKey": {
-                    "nom": "Marchandage",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-           {
-                "abilityKey": {
-                    "nom": "Plonée à couvert",
+                    "nom": "Forge",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
             },
             {
                 "abilityKey": {
-                    "nom": "Insensible",
+                    "nom": "Maitre d'armes",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Constant",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Indomptable",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
@@ -692,24 +543,10 @@
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
-            },			
-            {
-                "abilityKey": {
-                    "nom": "Forge",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },			
-            {
-                "abilityKey": {
-                    "nom": "Inamovible",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
             },
             {
                 "abilityKey": {
-                    "nom": "Maitre d'armes",
+                    "nom": "Troc",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
@@ -792,141 +629,7 @@
         "classe EN": "",
         "origin": "",
         "cost": "21",
-        "aptitudes": [
-            {
-                "abilityKey": {
-                    "nom": "Forteresse Mentale",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Intimidation",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Manipulation du Pouvoir",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Récupération Rapide",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Frénésie",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Prêt à Tout",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Réflexes",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Focalisation",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Force",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Endurcissement",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Vitesse",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Recupération",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Esprit confus",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Grande Conscience",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Saut",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Epuisement",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Ebullition de Sang",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Boule de Feu",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Rafale",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            }
-        ]
+        "aptitudes": []
     },
     {
         "nom": "Mentor",
@@ -943,7 +646,7 @@
         "aptitudes": [
             {
                 "abilityKey": {
-                    "nom": "Talent supplémentaire",
+                    "nom": "Pt Action supplémentaire",
                     "type": "Pouvoir"
                 },
                 "cursusMaxLevel": "1"
@@ -1155,7 +858,7 @@
         "aptitudes": [
             {
                 "abilityKey": {
-                    "nom": "Vif",
+                    "nom": "Rapide",
                     "type": "Pouvoir"
                 },
                 "cursusMaxLevel": "1"
@@ -1169,7 +872,7 @@
             },
             {
                 "abilityKey": {
-                    "nom": "Marchandage",
+                    "nom": "Pied agile",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
@@ -1183,7 +886,7 @@
             },
             {
                 "abilityKey": {
-                    "nom": "Intouchable",
+                    "nom": "Ficelles du métier",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
@@ -1197,26 +900,18 @@
             },
             {
                 "abilityKey": {
-                    "nom": "Promptitude",
+                    "nom": "Intouchable",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
             },
             {
                 "abilityKey": {
-                    "nom": "Ficelles du métier",
-                    "type": "Compétence"
-                },
-                "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Prêt à tout",
+                    "nom": "Troc",
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
             }
-
         ]
     },
     {
@@ -1273,132 +968,6 @@
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Trait d'Energie",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Ouverture",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Telekinesie",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Extinction",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Detection",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Protection",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Détection améliorée",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Invisibilité",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Poussée",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Barricade",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Télékinesie améliorée",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Perception des Malacytes",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Boule de Feu",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Cocon",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Torrent",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Rafale",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Reconstruction",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Portail",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
             }
         ]
     },
@@ -1456,147 +1025,6 @@
                     "type": "Compétence"
                 },
                 "cursusMaxLevel": "3"
-            }
-        ]
-    },
-    {
-        "nom": "Rook",
-        "classe EN": "",
-        "origin": "",
-        "cost": "2",
-        "aptitudes": [
-            {
-                "abilityKey": {
-                    "nom": "Magie",
-                    "type": "Magie"
-                },
-                "cursusMaxLevel": "12"
-            },
-            {
-                "abilityKey": {
-                    "nom": "Bénédiction",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Déviation",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Esprit Confus",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Focalisation",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Trait d'Energie",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Télékinésie",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Nausée",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Enchantement",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Illusion",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Empathie",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Armure affaiblie",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Sensibilité ux Malacytes",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Epuisement",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Ebulition du sang",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Apparence altérée",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Grande Illusion",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Rafale",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
-            },
-            {
-                "abilityKey": {
-                    "nom": "Enchantement amélioré",
-                    "type": "Sort"
-                },
-                "cursusMaxLevel": ""
             }
         ]
     },
@@ -1899,6 +1327,77 @@
         ]
     },
     {
+        "nom": "Rook",
+        "classe EN": "Rook",
+        "origin": "KS",
+        "cost": "16",
+        "aptitudes": [
+            {
+                "abilityKey": {
+                    "nom": "Magie",
+                    "type": "Pouvoir"
+                },
+                "cursusMaxLevel": "12"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Télékinésie",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "1"
+            },
+			{
+                "abilityKey": {
+                    "nom": "Bénédiction",
+                    "type": "Sort"
+                },
+                "cursusMaxLevel": "1"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Manipulation de Pouvoir",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Maitrise de la Malacyte",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Diversion",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Persuasion",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Marchandage",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            },
+            {
+                "abilityKey": {
+                    "nom": "Plonger à couvert",
+                    "type": "Compétence"
+                },
+                "cursusMaxLevel": "3"
+            }
+        ]
+    },
+    {
         "nom": "Gardien",
         "classe EN": "Guardian",
         "origin": "KS",
@@ -1968,12 +1467,5 @@
                 "cursusMaxLevel": "2"
             }
         ]
-    },
-    {
-        "nom": "pas de classe",
-        "classe EN": "no class",
-        "origin": "magouille",
-        "cost": "0",
-        "aptitudes": []
     }
 ]

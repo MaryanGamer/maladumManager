@@ -53,11 +53,9 @@
             "category": "Agilité",
             "seuil": "3",
             "descriptionNiveaux": [
-                "Reaction; quand un ennemi engage le personnage, celui ci se déplace sans AdO. Passif, Ignorez une touche sur les AdO.",
-                "2:reaction; quand un ennemi engage le personnage, Dans l'ordre de votre choix, celui ci se déplace sans AdO et attaque. Passif, le personnage peut utiliser Parade contre les tirs.",
-                "3:reaction; quand un ennemi engage le personnage, l'attaquant est étourdi et le personnage effectue 2 déplacement, sans AdO, et 1 attaque (ordre à votre choix).     Passif, pour un action rapide, vous pouvez ignorer une AdO.",
-                "Réaction : A utiliser quand un ennemi vous attaque. dans l'ordre de votre choix, effectuez un déplacement sans AdO, et effectuez une attaque",
-                "A utiliser quand un ennemi vous attaque. Il est étourdi; Dans l'ordre de votre choix, effectuez 2 déplacements sans AdO, et effectuez une attaque"
+                "Reaction : quand un ennemi engage le personnage, le héros se déplace sans AdO. Passif, Ignorez une touche sur les AdO.",
+                "Reaction : quand un ennemi engage le personnage, Dans l'ordre de votre choix, celui ci se déplace sans AdO et attaque. Passif, le personnage peut utiliser Parade contre les tirs.",
+                "Reaction : quand un ennemi engage le personnage, l'attaquant est étourdi et le personnage effectue 2 déplacements, sans AdO, et 1 attaque (ordre à votre choix). Passif : pour un action rapide, vous pouvez ignorer une AdO."
             ]
         }
     },
@@ -87,8 +85,8 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "Tant que vous êtes en contact avec un mur, pour ne pouvez pas être cible jusque la fin du round. Les enemis traversent vos cases adjacentes sans s'arréter ni déclencher d'AdO. Mais ils ne peuvent pas s'arréter dans une case qui vous est adjacent. Vou sne bloquez pas les LdV.",
-                "2 : effectuez un tir ou un déplacement. Puis, appliquez le niveau 1 si vous êtes en contact avec un décor.",
-                "3:Comme le niveau 1 tant que vous n'êtes pas en contact avec un ennemi. réation Passive : à utiliser n'importe quandpendant un round ou Camouflage est actif; vous effectuez un tir et prenez un jeton fatigue."
+                "Effectuez un tir ou un déplacement. Puis, appliquez le niveau 1 si vous êtes en contact avec un décor.",
+                "Comme le niveau 1 tant que vous n'êtes pas en contact avec un ennemi. Réaction Passive : à utiliser n'importe quandpendant un round ou Camouflage est actif; vous effectuez un tir et prenez un jeton fatigue."
             ]
         }
     },
@@ -101,9 +99,9 @@
             "category": "Voleur",
             "seuil": "3",
             "descriptionNiveaux": [
-                "1:Réaction : A utiliser lorsque vous êtes la cible d'un tior ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert.",
-                "2:Réaction : A utiliser lorsque vous êtes la cible d'un tior ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert (sans AdO).",
-                "3:Réaction : N'importe quand, Dans l'ordre de votre choix, le personnage se déplace vers un couvert (sans AdO) et attaque.Il ne peut être ciblé jusqu'à la fin du rundtant qu'il reste dans sa position."
+                "Réaction : A utiliser lorsque vous êtes la cible d'un tior ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert.",
+                "Réaction : A utiliser lorsque vous êtes la cible d'un tior ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert (sans AdO).",
+                "Réaction : N'importe quand, Dans l'ordre de votre choix, le personnage se déplace vers un couvert (sans AdO) et attaque.Il ne peut être ciblé jusqu'à la fin du round tant qu'il reste dans sa position."
             ]
         }
     },
@@ -122,7 +120,7 @@
             ]
         }
     },
-	{
+    {
         "abilityKey": {
             "nom": "Ficelles du métier",
             "type": "Compétence"
@@ -161,9 +159,9 @@
             "category": "Ruse",
             "seuil": "3",
             "descriptionNiveaux": [
-                "1:Gagnez 2 touchez sur un test de persuasion",
-                "2:Persuasion sur un aventurier. si réussite, l'aventurier a un marqueur fatigue par tcouhe. Passif : +1 aux tests de persuasion.",
-                "3:Persuasion sur un aventurier avec +3 touches. toute sles options sont disponibles."
+                "Gagnez 2 touchez sur un test de persuasion",
+                "Persuasion sur un aventurier. si réussite, l'aventurier a un marqueur fatigue par tcouhe. Passif : +1 aux tests de persuasion.",
+                "Persuasion sur un aventurier avec +3 touches. toutes les options sont disponibles."
             ]
         }
     },
@@ -209,6 +207,15 @@
                 "Vous ou un personnage en contact retir un marqueur blessé ou empoisonné, et récupère une Santé",
                 "Vous et tout personnage ami au contact est béni; Chacun peut effectuer une action supplémentaire ce tour-ci."
             ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Uni avec la nature",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Survie"
         }
     },
     {
@@ -300,8 +307,8 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "le personnage regagne une épingle de santé",
-                "à utiliser avant l'activation du personnagepour lui retirer le marqueur étourdiossement.Empoisonnement ou Multilation.",
-                "Reaction - Quand le personnage est vaincu. le personnage regagne une épingle de santéet se remet sur pied. Passif - au début du tour du personnage, retirer un marqueur fatigue."
+                "à utiliser avant l'activation du personnage pour lui retirer le marqueur étourdissement.Empoisonnement ou Multilation.",
+                "Reaction : Quand le personnage est vaincu. le personnage regagne une épingle de santéet se remet sur pied. Passif : au début du tour du personnage, retirer un marqueur fatigue."
             ]
         }
     },
@@ -316,7 +323,7 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "Vous ne pouvez pas être étourdi, poussé, ou mis au sol, jusque la fin du round.",
-                "Vous ne pouvez pas vous déplacer ce tour. gagnez +1 d& sur vos attaques et poussées. Passif : Ignoer l'encombrant' lorsque vous ne vous déplacez pas.",
+                "Vous ne pouvez pas vous déplacer ce tour. gagnez +1D sur vos attaques et poussées. Passif : Ignorer l'encombrant' lorsque vous ne vous déplacez pas.",
                 "jusque la fin du round, Vous ne pouvez pas être étourdi, poussé, ou mis au sol ET après une attaque de mélée contre vous, effectuer une poussée gratuite contre l'attaquant ET Si un ennemi se déplace à 2 cases de vous, vous puvez immédiatement faire un Rush pour l'engager et devenir sa cible."
             ]
         }
@@ -364,10 +371,9 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "En phase de commerce, vous avez le choix entre 3 actions : acheter un objet de n'importe quelle valeur OU piocher un objet rare additionnel pour la mise en vente OU vandre un objet pour sa valeur d'achat (max 10 x rang)",
-                "En phase de commerce, déduisez 2G de 3 objets achetés, ou ajouter 2G à 3 objets vendu. Les combinaisons sont possible. passif : déduisez 2G du prix d'achat d'un object ou de l'entretien d'un aventurier",
-                "phase de commerce : augmenter de 50% les gains de G gagnés via les objectifs de quête."
+                "En phase de commerce, déduisez 2G de 3 objets achetés, ou ajouter 2G à 3 objets vendu. Les combinaisons sont possible. Passif : déduisez 2G du prix d'achat d'un object ou de l'entretien d'un aventurier",
+                "en phase de commerce : augmenter de 50% les gains de G gagnés via les objectifs de quête."
             ]
-
         }
     },
     {
@@ -397,8 +403,8 @@
             "seuil": "3",
             "descriptionNiveaux": [
                 "Effectuez une attaque de mélée avec une arme, vous pouvez relancer un dé. Passif : Vous pouvez utiliser la capacité blocage par bouclier en action rapide. Vous devenez toujours fatigué si vous l'utilisez en dehors de votre tour.",
-                "A utiliser après une attaque de corps à corps. La cible est blessée et étourdie.  Passif : Vous pouvez effectuer une attaque de mélée en action rapide",
-                "A utiliser après une attaque de corps à corps avec une arme. Vous pouvez effectue rune autre attaque avec une autre arme de votre inventaire, en combinant les coups et les effets. Les résultats s'appliquent séparemment. ensuite, faites une action de recul avecd +1 dé. ou un déplacement sans AdO. Passif : les touches sur le dés bleux, en attaque, sont des critiques."
+                "A utiliser après une attaque de corps à corps. La cible est blessée et étourdie. Passif : Vous pouvez effectuer une attaque de mélée en action rapide",
+                "A utiliser après une attaque de corps à corps avec une arme. Vous pouvez effectuer une autre attaque avec une autre arme de votre inventaire, en combinant les coups et les effets. Les résultats s'appliquent séparemment. ensuite, faites une action de recul avecd +1 dé. ou un déplacement sans AdO. Passif : les touches sur le dés bleux, en attaque, sont des critiques."
             ]
         }
     },
@@ -436,11 +442,36 @@
     },
     {
         "abilityKey": {
+            "nom": "Maitrise de la Malacyte",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Magie",
+            "description": "description par niveau",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Lancez n'importe quel sort de niveau 1 non interdit. que vous y ayez accès, ou pas. en dépensant l'action ou action rapide nécessaire.",
+                "Réaction : Utilisez le après avoir lancé le dé magique pour le relancer et choisissez lequel des deux résultats appliquer.",
+                "Réaction : Après avoir obtenu un résultat Inarrêtable pendant votre tour, lancez immédiatement n'importe quel sort ou auquel vous avez accès avec une valeur de lancement de 2, sans dépenser de pion. Au lieu de lancer le dé magique, vous pouvez choisir le résultat du dé que vous souhaitez 3 appliquer à ce sort. Effectuez ensuite n'importe quelle action gratuitement. Passif : Gagnez une épingle de magie durant la phase d'évaluation."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Insensible à la Terreur",
             "type": "Pouvoir"
         },
         "abilityDetail": {
             "description": "Je pense que le nom du pouvoir est suffisemment éloquent"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Attaque mains nues",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "à fournir"
         }
     },
     {
@@ -481,12 +512,104 @@
     },
     {
         "abilityKey": {
+            "nom": "Vision nocturne",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "à fournir"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Talent supplémentaire",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Vous avez X points de talents supplémentaire"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Magie",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Vous pouvez lancer des sorts, que vous acquerez dans votre liste des sorts de votre classe. La valeur indiquée est le nombre de sorts que vous pouvez apprendre."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Dissident",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Ce Maladaar suit les règles de Maladaar dissidant."
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Bouclier de Malacyte",
             "type": "Sort"
         },
         "abilityDetail": {
             "category": "Proximité",
-            "description": "Action : Augmentez votre valeur de protection de X"
+            "description": "Action : Augmentez votre valeur de protection de X",
+            "seuil": "1"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Aura de Malacyte",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Passif : Les sorts de Proximité de niveau 1 à 3 de ce personnage peuvent affecter les alliés adjacents. Les effets peuvent être partagés librement entre le lanceur et les autres personnages; Ce personnage peut utiliser son armure magique pour annuler les coups infligés aux personnages adjacents.",
+            "seuil": "3"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Guérison avancée",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action : Appliquez ces effet jusqu'à X fois : restaure un PV (max 3); restaure une épingle de talent (mas 1); supprime un état.",
+            "seuil": "3"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Lévitation",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "A utiliser pendant un déplacement. vous ignorez les terrains et les autres personnages, jusqu'à X pouces de hauteur.",
+            "seuil": "3"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Modification d'apparence",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action : Déformez temporairement votre aspect, pour ressembler à un autre personnage de même tailles (un lamentor, un aventurier d'un autre groupe). LEs autres personnages vous traite comme ce type de personnage. A toute fin utile, ils vous laisseront échanger des objets avec eux. un personnage de rang supérieur à celui du lanceur ignore cet effet. Placez X marqueur sur votre personnage, et retirez en 1 à chaque phase d'évaluation. le sort se termine lorsque vous n'avez plus de marqueurs.",
+            "seuil": "3"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Mise en phase",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "description": "Action double : Déplacez vous de X cases, librement à) travers les murs et les terrains.",
+            "seuil": "4"
         }
     },
     {
@@ -513,23 +636,12 @@
     },
     {
         "abilityKey": {
-            "nom": "Focalisation",
-            "type": "Sort"
-        },
-        "abilityDetail": {
-            "category": "Proximité",
-            "description": "Action rapide : Gagner X marqueurs Bénédiction.",
-            "seuil": "1"
-        }
-    },
-    {
-        "abilityKey": {
             "nom": "Force",
             "type": "Sort"
         },
         "abilityDetail": {
             "category": "Proximité",
-            "description": "Action rapide : Gagner X  attaque à Mans  nues jusque la fin du tour.",
+            "description": "Action rapide : Gagner X attaque(s) à Mains nues jusque la fin du tour.",
             "seuil": "1"
         }
     },
@@ -539,7 +651,7 @@
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Focalidation",
+            "category": "Focalisation",
             "description": "Action : réduisez l'armure de la cible d'une valeur de X, jusque la fin du round.",
             "seuil": "1"
         }
@@ -590,11 +702,13 @@
     },
     {
         "abilityKey": {
-            "nom": "Attaque mains nues",
-            "type": "Pouvoir"
+            "nom": "Invisibilité",
+            "type": "Sort"
         },
         "abilityDetail": {
-            "description": "à fournir"
+            "category": "Proximité",
+            "description": "Action : Bénéficiez de l'effet jusqu'à la fin du tour. X=1 : Vous ne pouvez pas être ciblé par des ennemis au delà d'une courte portée; X=2 : vous ne pouvez pas être ciblé par des ennemis non adjacents. Vous ne bloquez pas la LdV. X=3 : Vous ne pouvez pas être ciblé, vous ignorez les attaques d'opportunité mais vous pouvez quand même les effectuer. Vous ne bloquez pas la LdV. Vous ne bloquez le mouvement que si vous le souhaitez.",
+            "seuil": "2"
         }
     },
     {
@@ -603,7 +717,9 @@
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Vicarious"
+            "category": "Vicarious",
+            "description": "Action : La cible gagne X marqueurs de bénédiction.",
+            "seuil": "1"
         }
     },
     {
@@ -637,29 +753,13 @@
     },
     {
         "abilityKey": {
-            "nom": "Force",
-            "type": "Sort"
-        },
-        "abilityDetail": {
-            "category": "Proximité"
-        }
-    },
-    {
-        "abilityKey": {
             "nom": "Fortitude",
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Vicarious"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Frénésie",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Combat"
+            "category": "Vicarious",
+            "description": "Action : La cible peut ignorer tout état infligé, jusqu'à la fin du round.",
+            "seuil": "1"
         }
     },
     {
@@ -669,6 +769,17 @@
         },
         "abilityDetail": {
             "category": "Endurance"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Contresort",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Vicarious",
+            "description": "Passif : Ce personnage peut résister aux sorts lancés dans sa courte portée. en utilisant ses propres épingles, quelque soit la cible.",
+            "seuil": "4"
         }
     },
     {
@@ -713,7 +824,9 @@
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Vicarious"
+            "category": "Vicarious",
+            "seuil": "1",
+            "description": "Action : la cible gagne X Armure jusque la fin du round."
         }
     },
     {
@@ -722,7 +835,9 @@
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Procuration"
+            "category": "Vicarious",
+            "seuil": "2",
+            "description": "Action rapide : La cible retire X fatigue."
         }
     },
     {
@@ -731,52 +846,31 @@
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Proximité"
+            "category": "Proximité",
+            "seuil": "1",
+            "description": "Action : Récupérez x épingles de santé."
         }
     },
     {
         "abilityKey": {
-            "nom": "Uni avec la nature",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Survie"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Vision nocturne",
-            "type": "Pouvoir"
-        },
-        "abilityDetail": {
-            "description": "à fournir"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Talent supplémentaire",
-            "type": "Pouvoir"
-        },
-        "abilityDetail": {
-            "description": "Vous avez X points de talents supplémentaire"
-        }
-    },
-	{
-        "abilityKey": {
-            "nom": "Dissident",
-            "type": "Pouvoir"
-        },
-        "abilityDetail": {
-            "description": "Ce Maladaar suit les règles de Maladaar dissident."
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Vitesse",
+            "nom": "Télékinésie",
             "type": "Sort"
         },
         "abilityDetail": {
-            "category": "Proximité"
+            "category": "Elémentaire",
+            "seuil": "1",
+            "description": "Action rapide : Choisissez un de ces effets : #1 Déplacer un objet au sol ou dans l'inventaire d'un allié ou un objet aléatoire sur un terrain dévérouillé jusqu'à X+2 cases. les pièges sont déclenchés contre une seule cible en contact avec le terrain. Si l'objet atteint un allié, placez le dans sont inventaire. Si c'est une arme et qu'il atteint un ennemis, considérez que c'est un lancer. #2 Propagation d'incendie , à partir d'une source de feu, jusqu'à X+2 cases."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Focalisation",
+            "type": "Sort"
+        },
+        "abilityDetail": {
+            "category": "Proximité",
+            "seuil": "1",
+            "description": "Action rapide : Le Maladar gagne X marqueyrs Bénédiction."
         }
     }
 ]
