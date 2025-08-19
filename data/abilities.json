@@ -144,9 +144,24 @@
             "category": "Voleur",
             "seuil": "3",
             "descriptionNiveaux": [
-                "Réaction : A utiliser lorsque vous êtes la cible d'un tior ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert.",
-                "Réaction : A utiliser lorsque vous êtes la cible d'un tior ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert (sans AdO).",
+                "Réaction : A utiliser lorsque vous êtes la cible d'un tir ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert.",
+                "Réaction : A utiliser lorsque vous êtes la cible d'un tir ou d'un sort et qu'il est à moins de 4 cases d'un couvert. Il se déplace vers ce couvert (sans AdO).",
                 "Réaction : N'importe quand, Dans l'ordre de votre choix, le personnage se déplace vers un couvert (sans AdO) et attaque.Il ne peut être ciblé jusqu'à la fin du round tant qu'il reste dans sa position."
+            ]
+        }
+    },
+	{
+        "abilityKey": {
+            "nom": "Embuscade",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Voleur",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Réaction : A utiliser lorsqu'un ennemi termine son mouvement à 4 cases ou moins et que vous êtes à couvert (partiel ou total): Effectuez une attaque à distance contre lui. Vous pouvez effectuer une ruée avant ou après ce tir.",
+                "Réaction : A utiliser lorsqu'un ennemi termine son mouvement à 4 cases ou moins et que vous êtes à couvert (partiel ou total) :  Effectuer un déplacement puis une attaaque contre lui. Vous pouvez effectuer une ruée avant ou après cette combinaison.",
+                "Réaction : A utiliser lorsqu'un ennemi termine son mouvement à 4 cases ou moins et que vous êtes à couvert (partiel ou total) :  Effectuer un déplacement puis une attaque contre n'importe quel ennemi, puis à nouveau un déplacement. Vous pouvez effectuer une ruée avant ou après cette combinaison."
             ]
         }
     },
@@ -174,7 +189,7 @@
             "category": "Ruse",
             "seuil": "3",
             "descriptionNiveaux": [
-                "Dévérouiller/vérouiller une porte ou ignorer les jetons pièges lors d'une fouille",
+                "Déverrouiller/verrouiller une porte ou ignorer les jetons pièges lors d'une fouille",
                 "Réaction : quand un allié en portée courte et el LdV est ciblé par une carte ou un jeton piège, annuler l'effet. Passif : la fouille globale est une action rapide",
                 "Lors d'une fouille, piocjher un pobjet supplémentaire, plus un objet onhabituel. Ignorez les pièges lors de cette fouille. Passif : Vos attaques gagnent 'Toxique'"
             ]
@@ -189,9 +204,9 @@
             "category": "Ruse",
             "seuil": "3",
             "descriptionNiveaux": [
-                "1 : Réaction, Après avoir subi une attaque de mélée, sans déghâts. Prenez un objet dans l'inventairede l'attaquant, autre que celui utilisé pour attaquer.",
-                "2:Déplacez vous au contactd'un personnageUtiliser l'aéction PickPocket; Puis effectuez un déplacement sasn AdO.",
-                "3:Passif, Pickpocket est une action standard"
+                "Réaction, Après avoir subi une attaque de mélée, sans dégâts. Prenez un objet dans l'inventairede l'attaquant, autre que celui utilisé pour attaquer.",
+                "Déplacez vous au contactd'un personnageUtiliser l'aéction PickPocket; Puis effectuez un déplacement sasn AdO.",
+                "Passif, Pickpocket est une action standard"
             ]
         }
     },
@@ -207,20 +222,6 @@
                 "Gagnez 2 touchez sur un test de persuasion",
                 "Persuasion sur un aventurier. si réussite, l'aventurier a un marqueur fatigue par tcouhe. Passif : +1 aux tests de persuasion.",
                 "Persuasion sur un aventurier avec +3 touches. toutes les options sont disponibles."
-            ]
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Embuscade",
-            "type": "Compétence"
-        },
-        "abilityDetail": {
-            "category": "Ruse",
-            "seuil": "3",
-            "descriptionNiveaux": [
-                "1:Reaction : Quand un ennemi termine son mouvement à 4 cases o moi ns de vous, et que vous êtes à couvert, vous effectuez un tir contre l'ennemi. Vous pouvez faire un rush, avant ou après le tir.",
-                "2:Réaction : A utiliser lorsqu'un ennemi termine son mouvement à 4 cases ou moins de vous, et vous êtes à couvert. Vous pouvez effectuer un mouvement ouis . Vous pouvez faire un Rush avant ou après une de ces 2 actions."
             ]
         }
     },
@@ -429,6 +430,38 @@
     },
     {
         "abilityKey": {
+            "nom": "Intimidation",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Soutien",
+            "description": "à fournir",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Reaction : Lorsqu'un ennemi en LdV s'active; Vous pouvez choisir la cible de l'ennemi pour le roundparmi les personnages elligibles qu'il peut voir, même si il est en contact, ou si une autre cible est + proche.",
+                "Reaction : Lorsqu'un ennemi en LdV s'active ou entre en LdV; son tour se termine immédiatement, et il est étourdi. Passif : Vous pouvez faire une action avec n'iporte quel allié en courte portée; celui ci devient alors fatigué.",
+                "Tous les ennemis du rang de ce personnage ou inférieur, en LdV et à courte portée, sont étourdis et terrifiés."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Inspirant",
+            "type": "Compétence"
+        },
+        "abilityDetail": {
+            "category": "Soutien",
+            "description": "à fournir",
+            "seuil": "3",
+            "descriptionNiveaux": [
+                "Retirez le compteur terrifié d'un allié en courte portée.",
+                "Reaction : Après avoier vaincu un ennemi, tous les personnages alliés à courte portée peuvent retirer un compteur terrifié ou effectuer une action. Passif : tout allié qui commence en portée courte de ce personnage peuit retirer un compteur terrifié avant de s'activer.",
+                "Tous les alliés en courte porté (y compris le personnage utilisant cette compétence) retire tous ses marqueurs fatigué et terrifiés. Puis chacun peut effectuer une action."
+            ]
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Assaut Brutal",
             "type": "Compétence"
         },
@@ -509,11 +542,11 @@
     },
     {
         "abilityKey": {
-            "nom": "Insensible à la Terreur",
+            "nom": "Adversaire digne de ce nom",
             "type": "Pouvoir"
         },
         "abilityDetail": {
-            "description": "Je pense que le nom du pouvoir est suffisemment éloquent"
+            "description": "Un personnage qui bat ce personnage, il gagne un point de renommée."
         }
     },
     {
@@ -522,16 +555,16 @@
             "type": "Pouvoir"
         },
         "abilityDetail": {
-            "description": "à fournir"
+            "description": "Le personnage peut effectuer des attaques sans arme, avec la valeur indiqué sur ce pouvoir."
         }
     },
     {
         "abilityKey": {
-            "nom": "Vif",
+            "nom": "Insensible à la Terreur",
             "type": "Pouvoir"
         },
         "abilityDetail": {
-            "description": "Le bénéficciaire de ce pouvoir peut se déplacer de X cases supplémentaires lors d'une actio de mouvement."
+            "description": "Je pense que le nom du pouvoir est suffisemment éloquent"
         }
     },
     {
@@ -545,6 +578,25 @@
     },
     {
         "abilityKey": {
+            "nom": "Camouflage",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Ce personnage ne peut être ciblé que par des attaques à distance de courte portée."
+        }
+    },
+
+    {
+        "abilityKey": {
+            "nom": "Dissident",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Ce Maladaar suit les règles de Maladaar dissidant."
+        }
+    },
+    {
+        "abilityKey": {
             "nom": "Immunité (Handicap)",
             "type": "Pouvoir"
         },
@@ -554,29 +606,11 @@
     },
     {
         "abilityKey": {
-            "nom": "XP supplémentaires",
-            "type": "Pouvoir"
-        },
-        "abilityDetail": {
-            "description": "gagne gratuitement 3 XPs à la création de personnage"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Vision nocturne",
+            "nom": "Implacable",
             "type": "Pouvoir"
         },
         "abilityDetail": {
             "description": "à fournir"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Talent supplémentaire",
-            "type": "Pouvoir"
-        },
-        "abilityDetail": {
-            "description": "Vous avez X points de talents supplémentaire"
         }
     },
     {
@@ -590,6 +624,33 @@
     },
     {
         "abilityKey": {
+            "nom": "Oeil de Lynx",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Cette attaque ignore la couverture partielle et peut tirer sur les personnages engagés à n'importe quelle distance sans toucher un autre personnage par erreur."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Peu fiable",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "une attaque qui donne un crâneprovoque un blocage de l'arme. tournez là de 180°. Il faut une action pour rétablir l'arme. En cas de double crâne, l'arme est cassée."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Premier coup",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Lorsque ce personnage entre en contact avec un ennemi (ou placé en jeu et directement en contract), il obtient immédiatement une action d attaque au xcorps à corps gratuite."
+        }
+    },
+   {
+        "abilityKey": {
             "nom": "Rapide",
             "type": "Pouvoir"
         },
@@ -599,14 +660,86 @@
     },
     {
         "abilityKey": {
-            "nom": "Dissident",
+            "nom": "Taille",
             "type": "Pouvoir"
         },
         "abilityDetail": {
-            "description": "Ce Maladaar suit les règles de Maladaar dissidant."
+            "description": "Ce personnage est plus petit ou plus grand qu'un humain moyen et des règles supplémentaires s'appliquent, le plus souvent utilisées pour LoS (page 10), Knock Backs (page 29) et Moving Objects (page 60)."
+        }
+    },
+     {
+        "abilityKey": {
+            "nom": "Talent supplémentaire",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Vous avez X points de talents supplémentaire"
+        }
+    },
+	{
+        "abilityKey": {
+            "nom": "Tranchant",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "si cette arme réussit un coup critique,la cible est blessée, même si aucun dégât n'a été causé."
         }
     },
     {
+        "abilityKey": {
+            "nom": "Vampirique",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "si cette attaque réussit un coup critique, la cible perd une épingle du type indiqué si possible, en plus des dégâts infligés. Si plusieurs types sont indiqués, la cible perd celui dont elle possède le plus (au choix de l'attaquant en cas d'égalité). Si un piquet a été perdu, l'attaquant récupère un piquet du même type si possible. S'il n'y parvient pas, il devient Béni si possible."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Vicieux",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Les résultats touche sur le dés bleu sont des coups critiques."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Vif",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Le bénéficciaire de ce pouvoir peut se déplacer de X cases supplémentaires lors d'une actio de mouvement."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Vision nocturne",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "à fournir"
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "Volatile",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "Si cette attaque optient un crâne sur le dé bleu, l'utilisateur subit un DG. Puis les personnages adjacents subissent une attaque avec les dés d'origine de l'attaque, avec la règle Brûlure."
+        }
+    },
+    {
+        "abilityKey": {
+            "nom": "XP supplémentaires",
+            "type": "Pouvoir"
+        },
+        "abilityDetail": {
+            "description": "gagne gratuitement 3 XPs à la création de personnage"
+        }
+    },
+   {
         "abilityKey": {
             "nom": "Bouclier de Malacyte",
             "type": "Sort"
@@ -840,15 +973,6 @@
             "category": "Vicarious",
             "description": "Passif : Ce personnage peut résister aux sorts lancés dans sa courte portée. en utilisant ses propres épingles, quelque soit la cible.",
             "seuil": "4"
-        }
-    },
-    {
-        "abilityKey": {
-            "nom": "Implacable",
-            "type": "Pouvoir"
-        },
-        "abilityDetail": {
-            "description": "à fournir"
         }
     },
     {
