@@ -1,5 +1,5 @@
 <script setup>
-import { ref , provide, useTemplateRef} from 'vue'
+import {onMounted, ref , provide, useTemplateRef} from 'vue'
 import campaignMaladum from './campaignMaladum.vue'
 import teamMaladum from './teamMaladum.vue'
 
@@ -82,12 +82,18 @@ function importGame (event) {
   //fileReader.readAsDataURL(files[0])
   //this.image = files[0]
 }
+
+onMounted(() => {console.log("gameMaladum mounted, abilities referential = ",abilityReferential.value )})
+
 </script>
 
 <template>
   <div class="pure-g global-game">
-    <div class="pure-u-1"><abilityMaladum @listAllAbilities="(liste) => abilityReferential = liste" /></div>
-
+    <div class="pure-u-1"><abilityMaladum @listAllAbilities="(liste) =>
+    {
+      abilityReferential = liste
+      console.log('gameMaladum receives abilities, abilities referential = ',abilityReferential)
+    }"/></div>
 
     <div class="pure-u-1 pure-u-sm-1-3 alignGlobal">
       <button class="btn btn-info" @click="chooseGameImport">Importer une partie</button>
@@ -99,7 +105,6 @@ function importGame (event) {
     </div>
     <div class="pure-u-1 pure-u-sm-1-3 alignGlobal"> Votre Partie en cours </div>
     <div class=" pure-u-1 pure-u-sm-1-3 alignGlobal"><button @click="downLoadCurrentGame(maladumGame,maladumGame.team.teamName)">Exporter la partie</button> </div>
-
 
     <div class="pure-u-1-1">
       <campaignMaladum v-model=maladumGame.campaign />

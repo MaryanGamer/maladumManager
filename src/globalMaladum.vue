@@ -96,7 +96,7 @@
   visibility: hidden;
   /**min-width : 120px ;
   max-width : 360px ; */
-  width : 240px ;
+  width : 300px ;
   background-color: black;
   color: #fff;
   /**text-align: center;*/

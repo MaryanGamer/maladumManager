@@ -10,9 +10,30 @@ const props = defineProps({
 // referentiel des abilités, instancié par ailleurs
 const abilityReferentiel = inject('abilityReferential')
 
+function formatText (p_text)
+{
+  let l_text=p_text
+  // cherche à formater des mots clefs
+  console.log("abilityViewer - text adapté en entrée :",l_text)
+  // mot clef "Action :" et "Action rapide :"
+  l_text=l_text.replaceAll("Action :", "<i>Action :</i>")
+  l_text=l_text.replaceAll("Action rapide :", "<i>Action rapide :</i>")
+  l_text=l_text.replaceAll("Réaction :", "<i>Réaction :</i>")
+  l_text=l_text.replaceAll("Réaction passive :", "<i>Réaction passive :</i>")
+  l_text=l_text.replaceAll("phase de Commerce", "<i>phase de Commerce</i>")
+  l_text=l_text.replaceAll("Fouille :", "<i>Fouille</i> :")
+  l_text=l_text.replaceAll(". Passif :", ".<br/><i>Passif</i> :")
+  l_text=l_text.replaceAll(" #", "<br/>#")
+
+  console.log("abilityViewer - text adapté en sortie :",l_text)
+  return l_text
+
+}
+
+
 // un filtre sur l'abilité en argument entrant
 //console.log("abilityViewer - abilityReferentiel = ",abilityReferentiel.value)
-console.log("abilityViewer - abilityKeyNom /  = ",props.abilityKeyNom, "/",props.abilityKeyType)
+console.log("abilityViewer - ability KeyNom/KeyType  = ",props.abilityKeyNom, "/",props.abilityKeyType)
 
 var filteredAbility = Array
 var textTooltip = String
@@ -33,7 +54,8 @@ if (filteredAbility.length > 0)
       // scan du tableau
       for (let step = 0; step < filteredAbility[0].abilityDetail.descriptionNiveaux.length; step++) {
         console.log("abilityMaladumViewer - descriptionNiveaux ",step," : ",filteredAbility[0].abilityDetail.descriptionNiveaux[step]);
-        textTooltip = textTooltip+ " " + filteredAbility[0].abilityDetail.descriptionNiveaux[step]
+        let l_niveau=step+1
+        textTooltip = textTooltip+ l_niveau + "- " + formatText(filteredAbility[0].abilityDetail.descriptionNiveaux[step]) + "<br/><br/>"
       }
 
     }
@@ -44,12 +66,21 @@ if (filteredAbility.length > 0)
   }
   else
   {
+    // si sort, on affiche le niveau
+    if (filteredAbility[0].abilityKey.type == "Sort")
+    {
+      if (Object.hasOwn(filteredAbility[0].abilityDetail,"seuil"))
+      {
+        console.log("abilityMaladumViewer, sort avec niveau indiqué")
+        textTooltip = textTooltip+ "Niveau " + filteredAbility[0].abilityDetail.seuil + "<br/><br/>"
+      }
+    }
     // on va chercher le champ abilityDetail/description
     console.log("abilityMaladumViewer, donnee filtrée description : ",filteredAbility[0].abilityDetail.description)
     if (Object.hasOwn(filteredAbility[0].abilityDetail,"description"))
     {
-      console.log("abilityMaladumViewer, compétence avec objet description ")
-      textTooltip = textTooltip+ " " + filteredAbility[0].abilityDetail.description
+      console.log("abilityMaladumViewer, Abilité avec objet description ")
+      textTooltip = textTooltip+ " " + formatText(filteredAbility[0].abilityDetail.description)
     }
     else
     {
@@ -59,7 +90,7 @@ if (filteredAbility.length > 0)
 
 }
 
-// gestion de l'alignement du toolti^p, à gauche ou à droite.
+// gestion de l'alignement du tooltip, à gauche ou à droite.
 var l_class = "tooltiptext"
 if (props.tooltipOnLeft) {
   l_class = l_class + " tooltiplefttext"

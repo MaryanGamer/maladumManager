@@ -233,9 +233,9 @@ const Abilities = ref([
 
 
 {    "abilityKey" :  { "nom":"Focus","type":"Sort"  },
-          "abilityDetail" : { "category" : "Proximité"   }  } ,
+          "abilityDetail" : { "category" : "Proximité", "seuil" : "1"   }  } ,
 {    "abilityKey" :  { "nom":"Force","type":"Sort"  },
-          "abilityDetail" : { "category" : "Proximité"   }  } ,
+          "abilityDetail" : { "category" : "Proximité", "seuil" : "1"   }  } ,
 {    "abilityKey" :  { "nom":"Fortitude","type":"Sort"  },
           "abilityDetail" : { "category" : "Vicarious"   }  } ,
 {    "abilityKey" :  { "nom":"Frénésie","type":"Compétence"  },
@@ -290,20 +290,26 @@ const emit = defineEmits(['listAllAbilities'])
 
 
 async function fetchAbilitiesData() {
+  //console.log("fetchAbilitiesData, avant chargement : liste des abilities en variable objet", Abilities.value)
   const res = await fetch(
     `./data/abilities.json`
   )
-  console.log(res)
+  //console.log("res : ",res)
 
   var l_text = await res.text()
   //console.log("text requete abilities : ",l_text)
-  Abilities.value = JSON.parse(l_text)
-  //console.log(Abilities.value)
+  Abilities.value = await JSON.parse(l_text)
+  console.log(Abilities.value)
+  console.log ("abilityMaladumLoader, emit action")
+  emit('listAllAbilities', Abilities.value)
+
 }
 
 fetchAbilitiesData()
 
-onMounted(() => {emit('listAllAbilities', Abilities.value)})
+
+onMounted(() => {}
+)
 
 //console.log ('referentiel des abilités : ',Abilities.value)
 
